@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2|Oxygen:700|Raleway:500" rel="stylesheet">
+</head>
+<body>
+  <header>Start your Pomodoro Clock</header>
+  <div id="container">
+    <div id="session">
+      <h2>Session Length</h2>
+      <div class="settings">
+        <div class="buttonBlock">
+          <button class="session add">+</button>
+          <button class="session sub">-</button>
+        </div>
+        <h3><span id="session-time"></span> mn</h3>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="time"></div>
+      <div class="spinner"></div>
+    </div>
+    <div id="break">
+      <h2>Break Length</h2>
+      <div class="settings">
+        <div class="buttonBlock">
+          <button class="break add">+</button>
+          <button class="break sub">-</button>
+        </div>
+        <h3><span id="break-time"></span> mn</h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
